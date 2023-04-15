@@ -6,7 +6,7 @@ import Account from "./UserProfile/Account";
 import Main from "./Main";
 import PlacesPage from "./PlacesPage";
 import Booked from "./UserProfile/Booked";
-const Static_uri = "http://localhost:5000/Models/Uploads";
+const Static_uri = "https://clonebackend1.onrender.com/Models/Uploads";
 const router = createBrowserRouter([
   {
     path: "/",

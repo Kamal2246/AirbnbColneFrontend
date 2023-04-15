@@ -7,7 +7,7 @@ import Rootes from "./Rootes";
 import { RouterProvider } from "react-router-dom";
 import axios from "axios";
 import { UserContextProvider } from "./UserContext";
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://clonebackend1.onrender.com";
 axios.defaults.withCredentials = true;
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
