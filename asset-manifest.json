@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AirbnbColneFrontend/static/css/main.c08b283a.css",
+    "main.js": "/AirbnbColneFrontend/static/js/main.fc5572d9.js",
+    "static/js/787.cda612ba.chunk.js": "/AirbnbColneFrontend/static/js/787.cda612ba.chunk.js",
+    "index.html": "/AirbnbColneFrontend/index.html",
+    "main.c08b283a.css.map": "/AirbnbColneFrontend/static/css/main.c08b283a.css.map",
+    "main.fc5572d9.js.map": "/AirbnbColneFrontend/static/js/main.fc5572d9.js.map",
+    "787.cda612ba.chunk.js.map": "/AirbnbColneFrontend/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c08b283a.css",
+    "static/js/main.fc5572d9.js"
+  ]
+}
