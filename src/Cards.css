@@ -1,0 +1,45 @@
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.Cards {
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  max-width: 290px;
+  flex-wrap: wrap;
+}
+.image {
+  max-height: 80%;
+  max-width: 100%;
+  text-align: left;
+}
+.image img {
+  margin: 1px;
+  max-height: 100%;
+  max-width: 100%;
+  border-start-start-radius: 25px;
+  border-top-left-radius: 25px;
+  z-index: 9;
+  transition: all 0.2s ease-out;
+}
+.Cards img:hover {
+  transform: scale(1.15);
+  z-index: 11;
+}
+.Info {
+  background-color: rgb(199, 187, 187);
+  border-end-end-radius: 25px;
+  border-bottom-left-radius: 25px;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+.Info p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

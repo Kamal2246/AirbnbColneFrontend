@@ -1,0 +1,128 @@
+.Booking-button {
+  position: fixed;
+  bottom: 0px;
+  left: 30%;
+  background-color: antiquewhite;
+  right: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+.Booking-button button {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.Booking-button button:hover {
+  box-shadow: 5px 5px 5px grey;
+}
+.Container-singlePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.PlaceInformation {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  row-gap: 10px;
+}
+.PlaceInformation div {
+  border-radius: 10px;
+  padding: 2px;
+}
+.Info-heading {
+  text-decoration: wavy;
+  color: rgb(218, 105, 105);
+  text-decoration: underline;
+  display: inline-block;
+}
+.PlaceInformation a {
+  text-decoration: none;
+  color: rgb(96, 81, 224);
+  text-decoration: wavy;
+  font-style: oblique;
+}
+.booking-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 10px;
+}
+.booking-action {
+  flex: 1;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(219, 214, 214);
+  border-radius: 30px;
+  padding: 12px;
+}
+.add-Name {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.add-Name input {
+  text-align: center;
+  border: none;
+  width: 200px;
+  border-bottom: 2px solid gray;
+  background-color: rgb(219, 214, 214);
+}
+.add-Name input:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .Booking-button button {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+  }
+  .Booking-button {
+    left: 20%;
+    right: 20%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+  .booking-info {
+    gap: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    max-width: 350px;
+  }
+  .booking-action {
+    min-width: 50px;
+    max-width: 150px;
+    margin-left: 5px;
+  }
+  .PlaceInformation {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+  }
+  .PlaceInformation div {
+    border-radius: 10px;
+    padding: 2px;
+    max-height: 150px;
+    overflow-x: scroll;
+  }
+}

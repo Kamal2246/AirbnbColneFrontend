@@ -1,0 +1,272 @@
+.accountNAV {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 65px;
+  padding: 0px;
+}
+.accountNAV div {
+  padding: 10px;
+  color: black;
+
+  height: 20px;
+  text-decoration: none;
+}
+.accountNAV div:hover {
+  background-color: antiquewhite;
+  border-radius: 25px;
+}
+.focused {
+  background-color: rgb(240, 82, 82);
+  border-radius: 25px;
+}
+.unfocused {
+  background-color: rgb(65, 41, 170);
+  border-radius: 25px;
+}
+.profile-main {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+.profile-main button {
+  width: 200px;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(240, 97, 157);
+}
+.profile-main button:hover {
+  box-shadow: 1px 1px 1px rgb(126, 108, 106);
+}
+.Container {
+  margin-top: 10px;
+}
+.Places-Form-container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.Places-form {
+  width: 450px;
+}
+.Places-form-input {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Places-form-input-each p {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+}
+.Places-form-input-each input {
+  text-align: center;
+  border: none;
+  width: 200px;
+  border-bottom: 2px solid gray;
+  transition: width 1s ease-in-out;
+}
+.Places-form-input-each input:focus {
+  outline: none;
+  width: 400px;
+  border-bottom: 2px solid rgb(197, 70, 129);
+}
+
+.Places-form button {
+  background: none;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.Places-form button img {
+  width: 20px;
+  margin: 0px;
+}
+.Places-pics {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-top: 18px;
+}
+.pic-container {
+  border: 1px dotted rgb(182, 178, 178);
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  margin-top: 18px;
+}
+.eminities {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.eminities-Checkbox img {
+  width: 25px;
+  height: 25px;
+}
+.eminities-Checkbox {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 2px;
+}
+.booking-date {
+  display: flex;
+  margin: 25px;
+}
+.dateinbetween {
+  min-width: 10px;
+  max-width: 20px;
+}
+.booking-date input {
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.Guest-counter {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  align-items: center;
+  justify-content: left;
+  font-size: larger;
+  margin-left: 25px;
+}
+.Guest-counter h4 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.Guest-counter button {
+  margin: 0px;
+  padding: 0px;
+}
+#Places-save {
+  background-color: rgb(192, 72, 156);
+  border: none;
+  width: 80%;
+  font-size: larger;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#Places-save:hover {
+  box-shadow: 5px 5px 5px rgb(145, 141, 141);
+}
+.link-add {
+  display: flex;
+  row-gap: 0px;
+  column-gap: 0px;
+}
+
+.link-add button {
+  flex: 1;
+  margin: 1px;
+  width: 100%;
+  margin-top: 15px;
+  background-color: rgb(226, 121, 161);
+}
+.Link-add-new-place {
+  margin-left: 25px;
+  background-color: rgb(156, 64, 100);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+}
+.add-new-link {
+  text-decoration: none;
+  color: rgb(253, 252, 252);
+}
+.textarea {
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid rgb(243, 226, 226);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 10px;
+}
+.display-images {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.Pics-container {
+  max-width: 100px;
+  height: auto;
+  position: relative;
+}
+.product-Image img {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.trash,
+.star {
+  width: 12px;
+  height: auto;
+  object-fit: contain;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  z-index: 2;
+}
+.star {
+  width: 25px;
+  left: 5%;
+  top: 5%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+.Upload-Local img {
+  width: auto;
+  height: 20px;
+}
+.Upload-Local {
+  width: 150px;
+  height: 70px;
+  margin-top: 5px;
+  border: 1px dashed rgb(209, 202, 202);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 15px;
+  border-radius: 25px;
+
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .accountNAV {
+    gap: 15px;
+  }
+
+  .Pics-container img:hover {
+    position: sticky;
+    transform: translateX(-100px);
+  }
+  .Places-form-input-each input:focus {
+    width: 300px;
+  }
+}
